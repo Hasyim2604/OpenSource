@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Top Up Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Top Up Game</h1>
+  <div class="top-up-container">
+    <form action="/top-up" method="post">
+      <div class="input-group">
+        <label for="game">Pilih game:</label>
+        <select name="game" id="game">
+          <option value="mobile-legends">Mobile Legends</option>
+          <option value="free-fire">Free Fire</option>
+          <option value="pubg-mobile">PUBG Mobile</option>
+        </select>
+      </div>
+
+      <div class="input-group">
+        <label for="nominal">Nominal top up:</label>
+        <input type="number" name="nominal" id="nominal" placeholder="Enter amount">
+      </div>
+
+      <button type="submit">Top Up</button>
+    </form>
+  </div>
+</body>
+
+</html>
